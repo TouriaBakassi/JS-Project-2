@@ -1,0 +1,26 @@
+/*                               Read-More Button */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div {
+  width: 600px;
+  background-color: gainsboro;
+  padding: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 10px;
+}
+span {
+  display: none;
+}
+.active {
+  display: block;
+}
+button {
+  background-color: blue;
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+}
